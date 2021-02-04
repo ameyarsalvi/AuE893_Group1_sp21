@@ -1,7 +1,9 @@
-here is a readme for assignment 3
+Here is a readme for assignment 3
 
+## Running the circle program
+The turtlebot 3 burger moves in a circular path.
 
-
+Command: roslaunch assignment3_turtlebot3 move.launch code:=square
 
 
 ## Running the Emergency brake program
