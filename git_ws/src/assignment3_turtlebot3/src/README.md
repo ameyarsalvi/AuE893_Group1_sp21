@@ -1,5 +1,5 @@
 ## Assignment 3
-in this assignemnt we created 3 files two that demonstrate open loop controls moving the turtlebot3 in a Gezebo to move in desired patterns and the third file we implimented sensor data in the simulation to cause the turtlebot3 to stop when it approaches a wall to avoid collision
+In this assignemnt we created 3 files two that demonstrate open loop controls moving the turtlebot3 in a Gezebo to move in desired patterns and the third file we implimented sensor data in the simulation to cause the turtlebot3 to stop when it approaches a wall to avoid collision
 
 ## Running the circle program
 The python scripts for assignment 2 were modified to control the turtlebot in Gazebo. The turtlebot 3 burger moves in a circular path. The launch file creates a empty world in Gazebo and lauches the program circle.py. Finaly, the circle.py script is ran through Gazebo which makes the turtlebot move in a circle.
