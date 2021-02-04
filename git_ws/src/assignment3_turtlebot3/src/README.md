@@ -1,4 +1,4 @@
-##Assignment 3
+## Assignment 3
 in this assignemnt we created 3 files two that demonstrate open loop controls moving the turtlebot3 in a Gezebo to move in desired patterns and the third file we implimented sensor data in the simulation to cause the turtlebot3 to stop when it approaches a wall to avoid collision
 
 ## Running the circle program
