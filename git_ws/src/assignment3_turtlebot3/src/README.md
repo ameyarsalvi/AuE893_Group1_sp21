@@ -1,9 +1,9 @@
 Here is a readme for assignment 3
 
 ## Running the circle program
-The turtlebot 3 burger moves in a circular path.
+The turtlebot 3 burger moves in a circular path. The launch file creates a empty world in Gazebo and lauches the program circle.py. Finaly, the circle.py script is ran through Gazebo which makes the turtlebot move in a circle.
 
-Command: roslaunch assignment3_turtlebot3 move.launch code:=square
+Command: roslaunch assignment3_turtlebot3 move.launch code:=circle
 
 
 ## Running the Emergency brake program
