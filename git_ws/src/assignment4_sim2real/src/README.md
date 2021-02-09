@@ -8,7 +8,7 @@ Command: `roslaunch assignment4_sim2real move.launch code:=circle`
 
 Similarly, the command to launch the square program is as follows:
 
-Command: `roslaunch assignment3_turtlebot3 move.launch code:=square`
+Command: `roslaunch assignment4_sim2real move.launch code:=square`
 
 ## Videos 
 Videos of this demonstration can be found in the [video](/git_ws/src/assignment4_sim2real/src/video) directory.  This contains videos of both the square and circle paths on the robot as well as screen recordings of the command line commands being executed.  
