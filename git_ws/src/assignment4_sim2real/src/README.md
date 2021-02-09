@@ -2,7 +2,7 @@
 In this assignment, we demonstrated the open loop square and circle paths from Assignments 2 and 3 on the physical TurtleBot.
 
 ## Running the programs
-The python scripts for these paths are located in the [scripts](/git_ws/src/assignment4_sim2real/scripts) directory. The launch file needed is move.launch, which is located in the 'launch' directory.  This file takes a 'code' argument, which specifies which script to run.  The circle path can be launched with the following command:
+The python scripts for these paths are located in the [scripts](/git_ws/src/assignment4_sim2real/src/scripts) directory. The launch file needed is move.launch, which is located in the 'launch' directory.  This file takes a 'code' argument, which specifies which script to run.  The circle path can be launched with the following command:
 
 Command: `roslaunch assignment4_sim2real move.launch code:=circle`
 
