@@ -1,4 +1,4 @@
-## Assignment 4
+# Assignment 4
 In this assignment, we demonstrated the open loop square and circle paths from Assignments 2 and 3 on the physical TurtleBot.
 
 ## Running the programs
