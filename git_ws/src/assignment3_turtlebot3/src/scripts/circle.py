@@ -11,7 +11,7 @@ def rotate():
     # Intial vales for circle
     # Agle needs to be greater than 360
     speed=0.5
-    angle=400
+    angle=500
     clockwise=False
     relative_angle=float(angle*pi/180)
 
