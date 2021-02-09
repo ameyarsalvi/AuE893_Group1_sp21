@@ -4,7 +4,7 @@ In this assignment, we demonstrated the open loop square and circle paths from A
 ## Running the programs
 The python scripts for these paths are located in the 'scripts' directory. The launch file needed is move.launch, which is located in the 'launch' directory.  This file takes a 'code' argument, which specifies which script to run.  The circle path can be launched with the following command:
 
-Command: roslaunch assignment4_sim2real move.launch code:=circle
+Command: `roslaunch assignment4_sim2real move.launch code:=circle`
 
 Similarly, the command to launch the square program is as follows:
 
