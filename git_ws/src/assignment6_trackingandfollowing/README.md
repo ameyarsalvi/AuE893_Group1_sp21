@@ -3,27 +3,26 @@ This assignment was split into two parts. For part 1 we were to implement a line
 
 
 # Part 1: Gazebo Simulation
--->video link<--
+[Video Link](/git_ws/src/assignment6_trackingandfollowing/src/videos/)
 After starting roscore, run the launch file to run the gazebo line tracking simulation
 
 Command: `roslaunch assignment6_trackingandfollowing turtlebot3_follow_line.launch`
 
 # Part 1: Turtlebot3 Line Tracking
--->video link<--
+[Video Link](/git_ws/src/assignment6_trackingandfollowing/src/videos/TurtleBot_LineFollowing_Real.mp4 )
 After starting roscore you'll need to ssh into the raspberrypi. Once you are ssh'd in, run the following commands to start the camera and robot:
 
 `pi@raspberrypi$ roslaunch turtlebot3_bringup turtlebot3_robot.launch`
 
-`pi@raspberrypi$ roslaunch turtlebot3_bringup turtlebot3_rpicamera.launch`
+`pi@raspberrypi$ roslaunch raspicam_node camerav2_1280x720.launch enable_raw:=true`
 
-Then back on the host computer, you need to run the following command in order to correctly get the subscriber to work:
+Once this is complete, you can simply execute the python script from the command line on the remote PC. 
+`python3 follow_line_step_hsv_BOT.py`
 
-`rosrun image_transport republish compressed in:=raspicam_node/image raw out:=raspicam_node/image_raw`
-
-more commands to run
-
+This script executes the same image processing and controller from part 1, but with controller gains and speeds chosen to better accomodate the physical TurtleBot.
 # Part 2: April Tags
--->video link<--
+[April Tag Following Video](/git_ws/src/assignment6_trackingandfollowing/src/videos/AprilTagFollowing_final.mp4)
+[April Tag Following Screen Video](/git_ws/src/assignment6_trackingandfollowing/src/videos/AprilTag_Screen.mp4)
 
 In order to use the apriltags in ROS you'll need to clone the two git repositories into your src folder:
 https://github.com/AprilRobotics/apriltag_ros
@@ -32,4 +31,9 @@ https://github.com/AprilRobotics/apriltag
 
 Once these have been cloned you'll need to go back to the catkin workspace (git_ws) and call catkin_make. Once the make has run and compiled, source the setup.bash found in the devel folder. 
 
-Commands to run 
+To execute the April Tag tracking on the bot, you need to do the same bringup from Part 1 via an ssh connection.  
+
+Once the TurtleBot and camera have been brought up, you canexecute the python script from the command line on the remote PC. 
+`python3 tagdemo3.py`
+
+This script uses the 'apriltag' package to detect the apriltag and extract the coordinates of its center.  Then it implements the same proportional controller from part 1 to steer the bot towards the April Tag.  If no tag is detected, a velocity of zero is commanded to the bot.  
