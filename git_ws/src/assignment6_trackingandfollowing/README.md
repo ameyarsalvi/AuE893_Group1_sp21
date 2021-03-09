@@ -20,6 +20,16 @@ Then back on the host computer, you need to run the following command in order t
 
 `rosrun image_transport republish compressed in:=raspicam_node/image raw out:=raspicam_node/image_raw`
 
+more commands to run
 
 # Part 2: April Tags
 -->video link<--
+
+In order to use the apriltags in ROS you'll need to clone the two git repositories into your src folder:
+https://github.com/AprilRobotics/apriltag_ros
+
+https://github.com/AprilRobotics/apriltag
+
+Once these have been cloned you'll need to go back to the catkin workspace (git_ws) and call catkin_make. Once the make has run and compiled, source the setup.bash found in the devel folder. 
+
+Commands to run 
