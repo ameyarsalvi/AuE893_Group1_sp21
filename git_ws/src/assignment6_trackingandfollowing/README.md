@@ -5,15 +5,19 @@ This assignment was split into two parts. For part 1 we were to implement a line
 # Part 1: Gazebo Simulation
 -->video link<--
 After starting roscore, run the launch file to run the gazebo line tracking simulation
+
 Command: `roslaunch assignment6_trackingandfollowing turtlebot3_follow_line.launch`
 
 # Part 1: Turtlebot3 Line Tracking
 -->video link<--
 After starting roscore you'll need to ssh into the raspberrypi. Once you are ssh'd in, run the following commands to start the camera and robot:
+
 `pi@raspberrypi$ roslaunch turtlebot3_bringup turtlebot3_robot.launch`
+
 `pi@raspberrypi$ roslaunch turtlebot3_bringup turtlebot3_rpicamera.launch`
 
 Then back on the host computer, you need to run the following command in order to correctly get the subscriber to work:
+
 `rosrun image_transport republish compressed in:=raspicam_node/image raw out:=raspicam_node/image_raw`
 
 
