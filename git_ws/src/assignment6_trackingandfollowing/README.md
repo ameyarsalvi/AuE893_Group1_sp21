@@ -4,12 +4,14 @@ This assignment was split into two parts. For part 1 we were to implement a line
 
 # Part 1: Gazebo Simulation
 [Video Link](/git_ws/src/assignment6_trackingandfollowing/src/videos/)
+
 After starting roscore, run the launch file to run the gazebo line tracking simulation
 
 Command: `roslaunch assignment6_trackingandfollowing turtlebot3_follow_line.launch`
 
 # Part 1: Turtlebot3 Line Tracking
 [Video Link](/git_ws/src/assignment6_trackingandfollowing/src/videos/TurtleBot_LineFollowing_Real.mp4 )
+
 After starting roscore you'll need to ssh into the raspberrypi. Once you are ssh'd in, run the following commands to start the camera and robot:
 
 `pi@raspberrypi$ roslaunch turtlebot3_bringup turtlebot3_robot.launch`
@@ -22,6 +24,7 @@ Once this is complete, you can simply execute the python script from the command
 This script executes the same image processing and controller from part 1, but with controller gains and speeds chosen to better accomodate the physical TurtleBot.
 # Part 2: April Tags
 [April Tag Following Video](/git_ws/src/assignment6_trackingandfollowing/src/videos/AprilTagFollowing_final.mp4)
+
 [April Tag Following Screen Video](/git_ws/src/assignment6_trackingandfollowing/src/videos/AprilTag_Screen.mp4)
 
 In order to use the apriltags in ROS you'll need to clone the two git repositories into your src folder:
