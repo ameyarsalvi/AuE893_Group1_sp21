@@ -13,7 +13,7 @@ Command: `roslaunch assignment6_trackingandfollowing turtlebot3_follow_line.laun
 
 # Part 1: Turtlebot3 Line Tracking
 [Full Video Link](/git_ws/src/assignment6_trackingandfollowing/src/videos/TurtleBot_LineFollowing_Real.mp4)
-![Turtlebot Line Tracking](https://github.com/ameyarsalvi/AuE893_Group1_sp21/blob/main/git_ws/src/assignment6_trackingandfollowing/src/videos/Turtlebot_LineFollowing_Real.gif)
+![Turtlebot Line Tracking](https://github.com/ameyarsalvi/AuE893_Group1_sp21/blob/main/git_ws/src/assignment6_trackingandfollowing/src/videos/TurtleBot_LineFollowing_Real.gif)
 
 After starting roscore you'll need to ssh into the raspberrypi. Once you are ssh'd in, run the following commands to start the camera and robot:
 
