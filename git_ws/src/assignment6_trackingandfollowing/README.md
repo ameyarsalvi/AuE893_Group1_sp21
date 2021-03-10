@@ -1,8 +1,9 @@
 # Assignment 6
-This assignment was split into two parts. For part 1 we were to implement a line following algorithm and test in both Gazebo and the real world. Part 2 used apriltags and had the robot identify and follow different april tags around the room. The implementation of these can be found in the [scripts](/git_ws/src/assignment6_trackingandfollowing/src/scripts) folder. Videos of the implementations being run on the turtlebot and screen recordings are shown in [videos](/git_ws/src/assignment6_trackingandfollowing/src/videos). 
+This assignment consisted of two parts. For part 1, we implemented a line following algorithm on the Turtlebot 3 Burger, both in Gazebo and in the real world. Part 2 used April tags and had the robot identify and follow different April tags around the room. The Python implementation of these can be found in the [scripts](/git_ws/src/assignment6_trackingandfollowing/src/scripts) folder. Videos of the implementations being run on the turtlebot and screen recordings are shown in [videos](/git_ws/src/assignment6_trackingandfollowing/src/videos). 
 
 
-# Part 1: Gazebo Simulation
+# Part 1 Turtlebot3 Line Tracking
+## (a): Line Tracking Gazebo Simulation
 [Full Video Link](git_ws/src/assignment6_trackingandfollowing/src/videos/linefollowing_gazebo.mp4)
 
 ![Gazebo Line Following](https://github.com/ameyarsalvi/AuE893_Group1_sp21/blob/main/git_ws/src/assignment6_trackingandfollowing/src/videos/linefollowing_gazebo.gif)
@@ -11,7 +12,7 @@ After starting roscore, run the launch file to run the gazebo line tracking simu
 
 Command: `roslaunch assignment6_trackingandfollowing turtlebot3_follow_line.launch`
 
-# Part 1: Turtlebot3 Line Tracking
+## (b): Real world Line Tracking
 [Full Video Link](/git_ws/src/assignment6_trackingandfollowing/src/videos/TurtleBot_LineFollowing_Real.mp4)
 
 ![Turtlebot Line Tracking](https://github.com/ameyarsalvi/AuE893_Group1_sp21/blob/main/git_ws/src/assignment6_trackingandfollowing/src/videos/TurtleBot_LineFollowing_Real.gif)
