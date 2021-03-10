@@ -4,6 +4,7 @@ This assignment was split into two parts. For part 1 we were to implement a line
 
 # Part 1: Gazebo Simulation
 [Video Link](/git_ws/src/assignment6_trackingandfollowing/src/videos/)
+![Watch the video](https://github.com/ameyarsalvi/AuE893_Group1_sp21/blob/main/git_ws/src/assignment6_trackingandfollowing/src/videos/linefollowing_gazebo.gif)
 
 After starting roscore, run the launch file to run the gazebo line tracking simulation
 
