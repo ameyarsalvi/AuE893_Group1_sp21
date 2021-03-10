@@ -4,13 +4,16 @@ This assignment consisted of two parts. For part 1, we implemented a line follow
 
 # Part 1: Turtlebot3 Line Tracking
 ## (a) Line Tracking in Gazebo 
-[Full Video Link](/git_ws/src/assignment6_trackingandfollowing/src/videos/linefollowing_gazebo.mp4)
+[Gazebo Video Link](/git_ws/src/assignment6_trackingandfollowing/src/videos/linefollowing_gazebo.mp4)
+/
+[Mask Video Link](/git_ws/src/assignment6_trackingandfollowing/src/videos/linefollowing_gazebo_mask.mp4)
 
 ![Gazebo Line Following](https://github.com/ameyarsalvi/AuE893_Group1_sp21/blob/main/git_ws/src/assignment6_trackingandfollowing/src/videos/linefollowing_gazebo.gif)
 <img src="https://github.com/ameyarsalvi/AuE893_Group1_sp21/blob/main/git_ws/src/assignment6_trackingandfollowing/src/videos/linefollowing_gazebo_mask.gif" width="500">
 The videos above show the Gazebo simulation and the thresholded image (with centroid location) used for path tracking.
 
 **To run this simulation:**
+
 After starting roscore, run the launch file to run the gazebo line tracking simulation
 
 Command: `roslaunch assignment6_trackingandfollowing turtlebot3_follow_line.launch`
@@ -25,7 +28,9 @@ The procedure implemented in this script is as follows:
 5. Implement a proportional controller to adjust the angular velocity command to steer this centroid to the center of the image frame.
 
 ## (b) Real world Line Tracking
-[Full Video Link](/git_ws/src/assignment6_trackingandfollowing/src/videos/TurtleBot_LineFollowing_Real.mp4)
+[TurtleBot Video Link](/git_ws/src/assignment6_trackingandfollowing/src/videos/TurtleBot_LineFollowing_Real.mp4)
+/
+[Mask Video Link](/git_ws/src/assignment6_trackingandfollowing/src/videos/linefollowing_gazebo_mask.mp4)
 
 ![Turtlebot Line Tracking](https://github.com/ameyarsalvi/AuE893_Group1_sp21/blob/main/git_ws/src/assignment6_trackingandfollowing/src/videos/TurtleBot_LineFollowing_Real.gif)
 <img src="https://github.com/ameyarsalvi/AuE893_Group1_sp21/blob/main/git_ws/src/assignment6_trackingandfollowing/src/videos/linefollowing_bot_mask_crop.gif" width="500">
