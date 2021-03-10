@@ -29,11 +29,11 @@ This script executes the same image processing and controller from part 1, but w
 # Part 2: April Tags
 [April Tag Following Video](/git_ws/src/assignment6_trackingandfollowing/src/videos/AprilTagFollowing_final.mp4)
 
+[April Tag Following Screen Video](/git_ws/src/assignment6_trackingandfollowing/src/videos/AprilTag_Screen.mp4)
+
 ![April Tag Following](https://github.com/ameyarsalvi/AuE893_Group1_sp21/blob/main/git_ws/src/assignment6_trackingandfollowing/src/videos/AprilTagFollowing.gif)
 
 ![April Tag Following Screen](https://github.com/ameyarsalvi/AuE893_Group1_sp21/blob/main/git_ws/src/assignment6_trackingandfollowing/src/videos/AprilTag_Screen.gif)
-
-[April Tag Following Screen Video](/git_ws/src/assignment6_trackingandfollowing/src/videos/AprilTag_Screen.mp4)
 
 In order to use the apriltags in ROS you'll need to clone the two git repositories into your src folder:
 https://github.com/AprilRobotics/apriltag_ros
