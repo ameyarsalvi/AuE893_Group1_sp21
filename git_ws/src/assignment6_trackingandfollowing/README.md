@@ -12,6 +12,15 @@ After starting roscore, run the launch file to run the gazebo line tracking simu
 
 Command: `roslaunch assignment6_trackingandfollowing turtlebot3_follow_line.launch`
 
+This launch file opens the Gazebo world and runs the python script `follow_line_step_hsv.py`.  
+
+The procedure implemented in this script is as follows:
+1. Subscribe to the topic `"/camera/rgb/image_raw"` to obtain camera data. 
+2. Crop the image to only view the region directly in front of the bot. 
+3. Threshold the image according to the color of the track to be detected.  This is the yellow color in the gazebo simulation.
+4. Calculate the centroid of the blob of the image representing the track.
+5. Implement a proportional controller to adjust the angular velocity command to steer this centroid to the center of the image frame.
+
 ## (b) Real world Line Tracking
 [Full Video Link](/git_ws/src/assignment6_trackingandfollowing/src/videos/TurtleBot_LineFollowing_Real.mp4)
 
