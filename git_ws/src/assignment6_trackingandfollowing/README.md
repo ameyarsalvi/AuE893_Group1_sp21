@@ -24,6 +24,7 @@ After starting roscore you'll need to ssh into the raspberrypi. Once you are ssh
 `pi@raspberrypi$ roslaunch raspicam_node camerav2_1280x720.launch enable_raw:=true`
 
 Once this is complete, you can simply execute the python script from the command line on the remote PC. 
+
 `python3 follow_line_step_hsv_BOT.py`
 
 This script executes the same image processing and controller from part 1, but with controller gains and speeds chosen to better accomodate the physical TurtleBot.
@@ -46,6 +47,7 @@ Once these have been cloned you'll need to go back to the catkin workspace (git_
 To execute the April Tag tracking on the bot, you need to do the same bringup from Part 1 via an ssh connection.  
 
 Once the TurtleBot and camera have been brought up, you canexecute the python script from the command line on the remote PC. 
+
 `python3 tagdemo3.py`
 
 This script uses the 'apriltag' package to detect the apriltag and extract the coordinates of its center.  Then it implements the same proportional controller from part 1 to steer the bot towards the April Tag.  If no tag is detected, a velocity of zero is commanded to the bot.  
