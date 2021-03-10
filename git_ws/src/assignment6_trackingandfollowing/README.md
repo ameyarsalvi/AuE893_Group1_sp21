@@ -28,7 +28,7 @@ Once this is complete, you can simply execute the python script from the command
 This script executes the same image processing and controller from part 1, but with controller gains and speeds chosen to better accomodate the physical TurtleBot.
 # Part 2: April Tags
 [April Tag Following Video](/git_ws/src/assignment6_trackingandfollowing/src/videos/AprilTagFollowing_final.mp4)
-
+/
 [April Tag Following Screen Video](/git_ws/src/assignment6_trackingandfollowing/src/videos/AprilTag_Screen.mp4)
 
 ![April Tag Following](https://github.com/ameyarsalvi/AuE893_Group1_sp21/blob/main/git_ws/src/assignment6_trackingandfollowing/src/videos/AprilTagFollowing.gif)
