@@ -2,7 +2,7 @@
 This assignment consisted of two parts. For part 1, we implemented a line following algorithm on the Turtlebot 3 Burger, both in Gazebo and in the real world. Part 2 used April tags and had the robot identify and follow different April tags around the room. The Python implementation of these can be found in the [scripts](/git_ws/src/assignment6_trackingandfollowing/src/scripts) folder. Videos of the implementations being run on the turtlebot and screen recordings are shown in [videos](/git_ws/src/assignment6_trackingandfollowing/src/videos). 
 
 
-# Part 1 Turtlebot3 Line Tracking
+# Part 1: Turtlebot3 Line Tracking
 ## (a) Line Tracking in Gazebo 
 [Full Video Link](/git_ws/src/assignment6_trackingandfollowing/src/videos/linefollowing_gazebo.mp4)
 
@@ -25,7 +25,6 @@ The procedure implemented in this script is as follows:
 [Full Video Link](/git_ws/src/assignment6_trackingandfollowing/src/videos/TurtleBot_LineFollowing_Real.mp4)
 
 ![Turtlebot Line Tracking](https://github.com/ameyarsalvi/AuE893_Group1_sp21/blob/main/git_ws/src/assignment6_trackingandfollowing/src/videos/TurtleBot_LineFollowing_Real.gif)
-
 <img src="https://github.com/ameyarsalvi/AuE893_Group1_sp21/blob/main/git_ws/src/assignment6_trackingandfollowing/src/videos/linefollowing_bot_mask_crop.gif" width="500">
 
 After starting roscore you'll need to ssh into the raspberrypi. Once you are ssh'd in, run the following commands to start the camera and robot:
