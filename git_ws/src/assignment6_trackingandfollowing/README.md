@@ -3,7 +3,7 @@ This assignment consisted of two parts. For part 1, we implemented a line follow
 
 
 # Part 1 Turtlebot3 Line Tracking
-## (a): Line Tracking Gazebo Simulation
+## (a) Line Tracking in Gazebo 
 [Full Video Link](git_ws/src/assignment6_trackingandfollowing/src/videos/linefollowing_gazebo.mp4)
 
 ![Gazebo Line Following](https://github.com/ameyarsalvi/AuE893_Group1_sp21/blob/main/git_ws/src/assignment6_trackingandfollowing/src/videos/linefollowing_gazebo.gif)
@@ -12,7 +12,7 @@ After starting roscore, run the launch file to run the gazebo line tracking simu
 
 Command: `roslaunch assignment6_trackingandfollowing turtlebot3_follow_line.launch`
 
-## (b): Real world Line Tracking
+## (b) Real world Line Tracking
 [Full Video Link](/git_ws/src/assignment6_trackingandfollowing/src/videos/TurtleBot_LineFollowing_Real.mp4)
 
 ![Turtlebot Line Tracking](https://github.com/ameyarsalvi/AuE893_Group1_sp21/blob/main/git_ws/src/assignment6_trackingandfollowing/src/videos/TurtleBot_LineFollowing_Real.gif)
