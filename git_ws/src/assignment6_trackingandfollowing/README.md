@@ -4,7 +4,7 @@ This assignment consisted of two parts. For part 1, we implemented a line follow
 
 # Part 1 Turtlebot3 Line Tracking
 ## (a) Line Tracking in Gazebo 
-[Full Video Link](git_ws/src/assignment6_trackingandfollowing/src/videos/linefollowing_gazebo.mp4)
+[Full Video Link](/git_ws/src/assignment6_trackingandfollowing/src/videos/linefollowing_gazebo.mp4)
 
 ![Gazebo Line Following](https://github.com/ameyarsalvi/AuE893_Group1_sp21/blob/main/git_ws/src/assignment6_trackingandfollowing/src/videos/linefollowing_gazebo.gif)
 
